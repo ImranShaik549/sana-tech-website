@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sana Tech</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Sana Tech</h1>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <nav id="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#learnings">Learnings</a></li> <!-- Added Learnings Link -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Sana Tech</h2>
+      <p>We offer the best services to help your business grow.</p>
+      <a href="#services" class="btn">Our Services</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a team of experienced professionals dedicated to delivering top-notch solutions for your needs.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3><a href="#consulting">Consulting</a></h3>
+          <p>Expert advice to help scale your business efficiently.</p>
+        </div>
+        <div class="card">
+          <h3><a href="#web-dev">Web Development</a></h3>
+          <p>Modern, fast, and responsive websites tailored to your brand.</p>
+        </div>
+        <div class="card">
+          <h3><a href="#marketing">Marketing</a></h3>
+          <p>Creative strategies to grow your online presence and reach.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Details Sections -->
+  <section id="consulting">
+    <div class="container">
+      <h2>Consulting</h2>
+      <p>Expert advice to help scale your business efficiently. We provide tailored strategies to help you optimize your operations, manage risk, and grow sustainably.</p>
+    </div>
+  </section>
+
+  <section id="web-dev">
+    <div class="container">
+      <h2>Web Development</h2>
+      <p>We specialize in creating modern, fast, and responsive websites. Our web development solutions ensure your website is tailored to your brand and optimized for performance across all devices.</p>
+    </div>
+  </section>
+
+  <section id="marketing">
+    <div class="container">
+      <h2>Marketing</h2>
+      <p>Our marketing team provides creative strategies to help you grow your online presence, drive traffic, and reach your target audience through effective campaigns and optimization techniques.</p>
+    </div>
+  </section>
+
+  <!-- New Learnings Section -->
+  <section id="learnings" class="learnings">
+    <div class="container">
+      <h2>Learnings</h2>
+      <p>We believe in continuous learning. Check out <a href="https://www.w3schools.com" target="_blank">W3Schools</a> for a wide range of tutorials that will help you grow your skills in programming, web development, and much more.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Sana Tech. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
